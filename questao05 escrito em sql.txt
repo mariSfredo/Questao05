@@ -1,0 +1,2 @@
+SELECT alunos.nome, notas.nota, alunos.valor from alunos, notas WHERE alunos.valor > notas.valor_min and alunos.valor < notas.valor_max  ORDER BY notas.nota DESC
+
